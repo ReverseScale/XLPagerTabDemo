@@ -10,22 +10,6 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
-        <scene sceneID="tne-QT-ifu">
-            <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="XLPagerTabDemo" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
-                    </view>
-                    <navigationItem key="navigationItem" id="zVh-Yr-Pn7"/>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="407" y="122"/>
-        </scene>
         <!--Demo-->
         <scene sceneID="vd1-15-bir">
             <objects>
@@ -52,7 +36,7 @@
                             </constraints>
                         </view>
                         <view key="tableFooterView" contentMode="scaleToFill" id="l8M-bH-AMl">
-                            <rect key="frame" x="0.0" y="217" width="375" height="164"/>
+                            <rect key="frame" x="0.0" y="217" width="375" height="389"/>
                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             <color key="backgroundColor" red="0.94901960780000005" green="0.94901960780000005" blue="0.94901960780000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         </view>
@@ -66,15 +50,15 @@
                                             <rect key="frame" x="0.0" y="0.0" width="341" height="59.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="展示" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="CfA-m3-vIp">
-                                                    <rect key="frame" x="16" y="10" width="35" height="20.5"/>
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="简单示例" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="CfA-m3-vIp">
+                                                    <rect key="frame" x="16" y="10" width="69.5" height="20.5"/>
                                                     <autoresizingMask key="autoresizingMask"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
-                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Demo" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="stI-xC-ChV">
-                                                    <rect key="frame" x="16" y="33.5" width="33.5" height="14.5"/>
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Simple example" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="stI-xC-ChV">
+                                                    <rect key="frame" x="16" y="33.5" width="89" height="14.5"/>
                                                     <autoresizingMask key="autoresizingMask"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="12"/>
                                                     <nil key="textColor"/>
@@ -83,7 +67,7 @@
                                             </subviews>
                                         </tableViewCellContentView>
                                         <connections>
-                                            <segue destination="BYZ-38-t0r" kind="push" id="BIp-Oa-Gs0"/>
+                                            <segue destination="SJz-ga-9xf" kind="push" id="Hdl-EN-oMG"/>
                                         </connections>
                                     </tableViewCell>
                                 </cells>
@@ -94,7 +78,7 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="JfT-nv-YrD" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-287" y="122"/>
+            <point key="canvasLocation" x="-287.19999999999999" y="121.88905547226388"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="iRc-dV-SrZ">
@@ -111,6 +95,58 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="rVW-Te-vYR" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-980" y="122"/>
+        </scene>
+        <!--ACTIVITY-->
+        <scene sceneID="upf-jd-SIc">
+            <objects>
+                <viewController id="SJz-ga-9xf" customClass="InstagramExampleViewController" customModule="Example" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Wls-UU-gR6"/>
+                        <viewControllerLayoutGuide type="bottom" id="IBE-u1-j5N"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="93s-Ax-zeb">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="nHk-xv-zHu" customClass="ButtonBarView" customModule="XLPagerTabStrip">
+                                <rect key="frame" x="0.0" y="64" width="375" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="ACa-vg-90o"/>
+                                </constraints>
+                                <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="29d-1H-WNR">
+                                    <size key="itemSize" width="40" height="40"/>
+                                    <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                                    <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                                    <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                </collectionViewFlowLayout>
+                                <cells/>
+                            </collectionView>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="cVa-7A-Uhp">
+                                <rect key="frame" x="0.0" y="104" width="375" height="563"/>
+                            </scrollView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="cVa-7A-Uhp" firstAttribute="top" secondItem="nHk-xv-zHu" secondAttribute="bottom" id="6yc-SV-h2L"/>
+                            <constraint firstAttribute="trailing" secondItem="nHk-xv-zHu" secondAttribute="trailing" id="HXv-8w-cQN"/>
+                            <constraint firstItem="cVa-7A-Uhp" firstAttribute="leading" secondItem="93s-Ax-zeb" secondAttribute="leading" id="WCM-E6-cWM"/>
+                            <constraint firstItem="nHk-xv-zHu" firstAttribute="leading" secondItem="93s-Ax-zeb" secondAttribute="leading" id="bmD-cm-odb"/>
+                            <constraint firstAttribute="trailing" secondItem="cVa-7A-Uhp" secondAttribute="trailing" id="crA-2I-pCY"/>
+                            <constraint firstItem="IBE-u1-j5N" firstAttribute="top" secondItem="cVa-7A-Uhp" secondAttribute="bottom" id="gre-wA-nMO"/>
+                            <constraint firstItem="nHk-xv-zHu" firstAttribute="top" secondItem="Wls-UU-gR6" secondAttribute="bottom" id="jyB-c6-1Zh"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="I6d-Ta-GTq"/>
+                    </view>
+                    <toolbarItems/>
+                    <navigationItem key="navigationItem" title="ACTIVITY" id="5UC-V5-PpD"/>
+                    <connections>
+                        <outlet property="buttonBarView" destination="nHk-xv-zHu" id="XyS-cb-158"/>
+                        <outlet property="containerView" destination="cVa-7A-Uhp" id="iRc-sH-svh"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="S8w-0K-4Pa" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="409" y="122"/>
         </scene>
     </scenes>
 </document>

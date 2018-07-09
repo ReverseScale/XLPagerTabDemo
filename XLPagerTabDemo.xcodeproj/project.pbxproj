@@ -9,13 +9,18 @@
 /* Begin PBXBuildFile section */
 		2DD475702092C7BF4D4D85F7 /* Pods_XLPagerTabDemoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E8D1F7734B9BE69ED1BC2118 /* Pods_XLPagerTabDemoTests.framework */; };
 		52163F9320F385A6008B803F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52163F9220F385A6008B803F /* AppDelegate.swift */; };
-		52163F9520F385A6008B803F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52163F9420F385A6008B803F /* ViewController.swift */; };
 		52163F9820F385A6008B803F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52163F9620F385A6008B803F /* Main.storyboard */; };
 		52163F9A20F385A8008B803F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52163F9920F385A8008B803F /* Assets.xcassets */; };
 		52163FA820F385A8008B803F /* XLPagerTabDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52163FA720F385A8008B803F /* XLPagerTabDemoTests.swift */; };
 		52163FB320F385A8008B803F /* XLPagerTabDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52163FB220F385A8008B803F /* XLPagerTabDemoUITests.swift */; };
 		52163FC320F386D6008B803F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52163FC120F386D6008B803F /* LaunchScreen.storyboard */; };
 		52163FC420F386D6008B803F /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 52163FC220F386D6008B803F /* Default.png */; };
+		52163FC620F389B5008B803F /* InstagramExampleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52163FC520F389B5008B803F /* InstagramExampleViewController.swift */; };
+		52163FC920F389DD008B803F /* TableChildExampleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52163FC720F389DD008B803F /* TableChildExampleViewController.swift */; };
+		52163FCA20F389DD008B803F /* ChildExampleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52163FC820F389DD008B803F /* ChildExampleViewController.swift */; };
+		52163FCE20F38A14008B803F /* DataProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52163FCB20F38A13008B803F /* DataProvider.swift */; };
+		52163FCF20F38A14008B803F /* PostCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 52163FCC20F38A14008B803F /* PostCell.xib */; };
+		52163FD020F38A14008B803F /* PostCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52163FCD20F38A14008B803F /* PostCell.swift */; };
 		CB7BEEC445FCA4E9806C6108 /* Pods_XLPagerTabDemoUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FBCD08C30D9D79A9C2D3C4F5 /* Pods_XLPagerTabDemoUITests.framework */; };
 		F704EE48867A6CE95320864D /* Pods_XLPagerTabDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 41C524EC565AE818A9FAB464 /* Pods_XLPagerTabDemo.framework */; };
 /* End PBXBuildFile section */
@@ -44,7 +49,6 @@
 		4CB628F21CD422B202CA88B6 /* Pods-XLPagerTabDemoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XLPagerTabDemoUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-XLPagerTabDemoUITests/Pods-XLPagerTabDemoUITests.release.xcconfig"; sourceTree = "<group>"; };
 		52163F8F20F385A6008B803F /* XLPagerTabDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XLPagerTabDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		52163F9220F385A6008B803F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		52163F9420F385A6008B803F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		52163F9720F385A6008B803F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		52163F9920F385A8008B803F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		52163F9E20F385A8008B803F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -56,6 +60,12 @@
 		52163FB420F385A8008B803F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		52163FC120F386D6008B803F /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 		52163FC220F386D6008B803F /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		52163FC520F389B5008B803F /* InstagramExampleViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InstagramExampleViewController.swift; sourceTree = "<group>"; };
+		52163FC720F389DD008B803F /* TableChildExampleViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableChildExampleViewController.swift; sourceTree = "<group>"; };
+		52163FC820F389DD008B803F /* ChildExampleViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChildExampleViewController.swift; sourceTree = "<group>"; };
+		52163FCB20F38A13008B803F /* DataProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataProvider.swift; sourceTree = "<group>"; };
+		52163FCC20F38A14008B803F /* PostCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PostCell.xib; sourceTree = "<group>"; };
+		52163FCD20F38A14008B803F /* PostCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostCell.swift; sourceTree = "<group>"; };
 		7AEA384B1C479BC3EF128EB9 /* Pods-XLPagerTabDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XLPagerTabDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-XLPagerTabDemo/Pods-XLPagerTabDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		A20CD7E4AEF1DF3F38CF0B63 /* Pods-XLPagerTabDemoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XLPagerTabDemoTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-XLPagerTabDemoTests/Pods-XLPagerTabDemoTests.debug.xcconfig"; sourceTree = "<group>"; };
 		BBBDF227C9B7B81885A13F80 /* Pods-XLPagerTabDemoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XLPagerTabDemoUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-XLPagerTabDemoUITests/Pods-XLPagerTabDemoUITests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -117,7 +127,12 @@
 			isa = PBXGroup;
 			children = (
 				52163F9220F385A6008B803F /* AppDelegate.swift */,
-				52163F9420F385A6008B803F /* ViewController.swift */,
+				52163FC520F389B5008B803F /* InstagramExampleViewController.swift */,
+				52163FC820F389DD008B803F /* ChildExampleViewController.swift */,
+				52163FC720F389DD008B803F /* TableChildExampleViewController.swift */,
+				52163FCD20F38A14008B803F /* PostCell.swift */,
+				52163FCC20F38A14008B803F /* PostCell.xib */,
+				52163FCB20F38A13008B803F /* DataProvider.swift */,
 				52163F9620F385A6008B803F /* Main.storyboard */,
 				52163F9920F385A8008B803F /* Assets.xcassets */,
 				52163FC220F386D6008B803F /* Default.png */,
@@ -278,6 +293,7 @@
 			files = (
 				52163FC320F386D6008B803F /* LaunchScreen.storyboard in Resources */,
 				52163F9A20F385A8008B803F /* Assets.xcassets in Resources */,
+				52163FCF20F38A14008B803F /* PostCell.xib in Resources */,
 				52163F9820F385A6008B803F /* Main.storyboard in Resources */,
 				52163FC420F386D6008B803F /* Default.png in Resources */,
 			);
@@ -379,8 +395,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				52163F9520F385A6008B803F /* ViewController.swift in Sources */,
+				52163FD020F38A14008B803F /* PostCell.swift in Sources */,
+				52163FCE20F38A14008B803F /* DataProvider.swift in Sources */,
+				52163FC620F389B5008B803F /* InstagramExampleViewController.swift in Sources */,
 				52163F9320F385A6008B803F /* AppDelegate.swift in Sources */,
+				52163FC920F389DD008B803F /* TableChildExampleViewController.swift in Sources */,
+				52163FCA20F389DD008B803F /* ChildExampleViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -36,7 +36,8 @@ run 'pod install' in file
 
 ### Main
 
-InstagramExampleViewController.swift
+Controller：InstagramExampleViewController.swift
+View:PostCell.
 
 #### Setup
 
@@ -81,7 +82,7 @@ override func viewDidLoad() {
 
 ## 📝 App Submission
 
-XLPagerTabStrip:https://github.com/xmartlabs/XLPagerTabStrip
+XLPagerTabStrip：https://github.com/xmartlabs/XLPagerTabStrip
 
 ## ⚖ License
 

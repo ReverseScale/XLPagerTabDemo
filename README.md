@@ -36,23 +36,23 @@ run 'pod install' in file
 
 ### Main
 
-Controller：
+1)Controller：
 
 InstagramExampleViewController.swift
 
-ChildController：
+2)ChildController：
 
 ChildExampleViewController.swift
 
 TableChildExampleViewController.swift
 
-View:
+3)View:
 
 PostCell.swift
 
 PostCell.xib
 
-Data:
+4)Data:
 
 DataProvider.swift
 

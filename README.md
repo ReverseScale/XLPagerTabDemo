@@ -81,6 +81,8 @@ override func viewDidLoad() {
 
 ## 📝 App Submission
 
+XLPagerTabStrip:https://github.com/xmartlabs/XLPagerTabStrip
+
 ## ⚖ License
 
 ```
